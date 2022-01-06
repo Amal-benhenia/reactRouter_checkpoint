@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.filterContainer {
+  width: 50%;
+  margin-top: 10px;
+  display: flex;
+}
+.movielistContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  column-gap:5%;
+  
+  row-gap: 10px;
+}
+.App {
+  background-color:rgb(25, 25, 77);
+}
+.rateContainer span {
+  background-color: transparent;
+  border: none;
+}
+
+
+.fa-star {
+  color: gold;
+}
+
+
